@@ -1,0 +1,7 @@
+data/processed_train/train_de.txt filter=lfs diff=lfs merge=lfs -text
+data/processed_train/train_en.txt filter=lfs diff=lfs merge=lfs -text
+/hdd/user4/freshman/RNN/data/preprocessed/train.pkl filter=lfs diff=lfs merge=lfs -text
+/hdd/user4/freshman/RNN/data/preprocessed/train_data filter=lfs diff=lfs merge=lfs -text
+data/preprocessed/train.pkl filter=lfs diff=lfs merge=lfs -text
+data/preprocessed/train_data.pkl filter=lfs diff=lfs merge=lfs -text
+/hdd/user4/freshman/RNN/data/** filter=lfs diff=lfs merge=lfs -text
