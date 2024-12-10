@@ -1,0 +1,43 @@
+{
+    "comment":
+    {
+        "DROPOUT_P": 0.2,
+        "eval_step": 1000
+    },
+
+    "model":
+    {
+        "MAX_LENGTH": 50, 
+        "VOCAB_SIZE": 50001,
+        "EMBED_DIM": 1000,
+        "HIDDEN_DIM": 1000,
+        "NUM_LAYERS": 4,
+        "DROPOUT_P": 0,
+        "IS_REVERSE": false
+    },
+
+    "train":
+    {
+        "MAX_EPOCH": 12,
+        "BATCH_SIZE": 128,
+        "GAMMA": 0.5,
+        "eval_step": 500,
+        "clip": 5,
+        "lr": 1
+    },
+
+    "file":
+    {
+        "train_en": "/hdd/user4/freshman/RNN/data/processed_train/train_en.txt",
+        "train_de": "/hdd/user4/freshman/RNN/data/processed_train/train_de.txt",
+        "test_en": "/hdd/user4/freshman/RNN/data/processed_test/newstest2014-deen-src.en.2",
+        "test_de": "/hdd/user4/freshman/RNN/data/processed_test/newstest2014-deen-ref.de.2",
+        "valid_en": "/hdd/user4/freshman/RNN/data/processed_dev/newstest2013.en",
+        "valid_de": "/hdd/user4/freshman/RNN/data/processed_dev/newstest2013.de",
+        "vocab_en": "/hdd/user4/freshman/RNN/data/vocab/vocab.50K.en",
+        "vocab_de": "/hdd/user4/freshman/RNN/data/vocab/vocab.50K.de",
+
+        "processed_test": "/hdd/user4/freshman/RNN/data/preprocessed/test.pkl",
+        "processed_train": "/hdd/user4/freshman/RNN/data/preprocessed/train.pkl"
+    }
+}
